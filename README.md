@@ -1,6 +1,6 @@
 # SOAR Pypeit Example
 
-An example reduction for reducing SOAR/Goodman data with pypeit
+An example for reducing SOAR/Goodman data with pypeit
 
 # References
 
