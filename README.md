@@ -9,11 +9,21 @@ anaconda:
 
 # Setup and Installation
 
-Install pypeit via a conda installation
+Install pypeit via a conda installation (for non-Apple Silicon-based Mac users):
 
 ```
 conda create -n pypeit python=3.11
 conda activate pypeit
+pip install pypeit
+```
+
+For Apple Silicon-based Mac users, the current recommended installation procedure is:
+
+```
+conda create -n pypeit -y
+conda activate pypeit
+conda config --env --set subdir osx-64
+conda install python=3.11
 pip install pypeit
 ```
 
