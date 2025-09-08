@@ -19,7 +19,12 @@ pip install pypeit
 
 Ancillary atmospheric grid files can be found under: https://drive.google.com/drive/folders/1FFRWjUZ58HiDuDD33MYqBzMWDQanBRRy?usp=drive_link
 
-These need to be installed under: `$CONDA_PREFIX/lib/python3.11/site-packages/pypeit/data/telluric/atm_grids`.  The files themselves are large (up to several GB), which is why they're not packaged with `pypeit`.
+The relevant atmospheric grid can be installed with:
+
+```
+wget wget https://s3-west.nrp-nautilus.io/pypeit/telluric/atm_grids/TellPCA_3000_26000_R15000.fits
+mv TellPCA_3000_26000_R15000.fits $CONDA_PREFIX/lib/python3.11/site-packages/pypeit/data/telluric/atm_grids/
+```
 
 # Create the initial *.pyepit file and run pypeit
 
