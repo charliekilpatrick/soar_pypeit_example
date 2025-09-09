@@ -100,7 +100,7 @@ You will also need to edit: `coaddfile = SN2024abbv_red_20250807.fits` to the ou
 The final step is the telluric correction, which will fit the atmospheric model grid file `TellPCA_3000_26000_R15000.fits` to the molecular oxygen bands in your spectrum (if they cover the A and B bands at 7620 and 6880 angstroms).  Simply run:
 
 ```
-pypeit_tellfit SN2024abbv_red_20250807.fits --objmodel poly
+pypeit_tellfit SN2024abbv_red_20250807.fits --objmodel poly --debug --plot
 ```
 
 and pypeit will output a `SN2024abbv_red_20250807_tellcorr.fits` file, which is the final reduced 1D spectrum file.  You can inspect this file with: `lt_xspec SN2024abbv_red_20250807_tellcorr.fits`.
