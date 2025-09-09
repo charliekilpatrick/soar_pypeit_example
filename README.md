@@ -5,7 +5,6 @@ An example for reducing SOAR/Goodman data with pypeit
 # References
 
 pypeit documentation: https://pypeit.readthedocs.io/en/stable/
-anaconda: 
 
 # Setup and Installation
 
