@@ -79,8 +79,8 @@ which will automatically generate a `*.flux` and `*.coadd` file that we need to 
 
 ```
                                                                   filename | sensfile
-spec1d_0205_SN-2024abbv_07-08-2025-SN2024abbv_red_20250807T055705.668.fits |         HR7596_soar_ghts_red_400m2_20250807_sensfunc.fits
-spec1d_0206_SN-2024abbv_07-08-2025-SN2024abbv_red_20250807T061716.460.fits |         HR7596_soar_ghts_red_400m2_20250807_sensfunc.fits
+spec1d_0205_SN-2024abbv_07-08-2025-SN2024abbv_red_20250807T055705.668.fits |         ../HR7596_soar_ghts_red_400m2_20250807_sensfunc.fits
+spec1d_0206_SN-2024abbv_07-08-2025-SN2024abbv_red_20250807T061716.460.fits |         ../HR7596_soar_ghts_red_400m2_20250807_sensfunc.fits
 flux end
 ```
 
