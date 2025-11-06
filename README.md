@@ -32,7 +32,7 @@ The relevant atmospheric grid can be installed with:
 
 ```
 wget https://s3-west.nrp-nautilus.io/pypeit/telluric/atm_grids/TellPCA_3000_26000_R15000.fits
-mv TellPCA_3000_26000_R15000.fits $CONDA_PREFIX/lib/python3.11/site-packages/pypeit/data/telluric/atm_grids/
+mv TellPCA_3000_26000_R15000.fits $CONDA_PREFIX/lib/python3.12/site-packages/pypeit/data/telluric/atm_grids/
 ```
 
 # Create the initial *.pyepit file and run pypeit
